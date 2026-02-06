@@ -1,0 +1,14 @@
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Spring Boot secrets
+application.properties
+application.yml
+
+# OS files
+.DS_Store
+
