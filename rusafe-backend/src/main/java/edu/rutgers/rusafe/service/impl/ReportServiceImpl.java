@@ -45,7 +45,6 @@ public class ReportServiceImpl implements ReportService {
                 () -> new ResourceNotFoundException("Report with ID = " + reportId + " NOT FOUND!")
         );
 
-        report.setReportId(updatedReport.getReportId());
         report.setTitle(updatedReport.getTitle());
         report.setCaption(updatedReport.getCaption());
         report.setTimeCreated(updatedReport.getTimeCreated());
