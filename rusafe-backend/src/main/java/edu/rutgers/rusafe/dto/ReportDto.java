@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class ReportDto {
 
-    private Long id;
+    private Long reportId;
     private String title;
     private String caption;
     private Time timeCreated;
