@@ -6,10 +6,14 @@ import edu.rutgers.rusafe.mapper.ReportMapper;
 import edu.rutgers.rusafe.model.Report;
 import edu.rutgers.rusafe.repository.ReportRepository;
 import edu.rutgers.rusafe.service.ReportService;
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
+@AllArgsConstructor
 public class ReportServiceImpl implements ReportService {
 
     private ReportRepository reportRepository;
